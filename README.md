@@ -69,16 +69,20 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-### 1. Run the Main Python Script (`finalproject_run.py`)
+### 1. Create and Activate a Virtual Environment
 
 **Steps (for VS Code or any terminal):**
 
 1. Open the project folder in **VS Code**.  
 2. Open a **new terminal** inside VS Code (`Ctrl + ~` or *View → Terminal*).  
-3. Activate your virtual environment (if not already active):  
+3. Activate your virtual environment (if not already active):
+   ``` python -m venv venv ```
    ``` source venv/bin/activate  ```  
-   
-4. Run the main script:  
+
+4. Install the Required Dependencies
+``` pip install -r requirements.txt```
+
+5. Run the main script:  
    ```
    python src/finalproject_run.py
    ```
